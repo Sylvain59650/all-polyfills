@@ -1,0 +1,9 @@
+gulpfile.js
+eslint*
+workspace*
+node_modules/**
+.vscode/**
+docs/*
+tests/*
+sources/*
+ts/*
