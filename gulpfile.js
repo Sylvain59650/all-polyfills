@@ -12,12 +12,17 @@ const chemins = {
 };
 
 
+gulp.task("clean", function() {
+  return gulp.src([
+      chemins.distrib
+    ])
+    .pipe(clean())
+});
 
-gulp.task("all-polyfills.min.js", () => {
+gulp.task("all-polyfills.min.js", ["clean"], () => {
   return gulp.src([
       "src/**/**.js"
     ])
-    .pipe(clean())
     .pipe(gulp.dest(chemins.distrib))
 });
 

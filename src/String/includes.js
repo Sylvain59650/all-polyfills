@@ -1,0 +1,12 @@
+if (!String.prototype.includes) {
+  console.log("define includes");
+  String.prototype.includes = function(search, start) {
+    if (typeof start !== "number") {
+      start = 0;
+    }
+    if (start + search.length > this.length) {
+      return false;
+    }
+    return this.indexOf(search, start) !== -1;
+  };
+}
