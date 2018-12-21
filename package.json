@@ -1,12 +1,8 @@
 {
   "name": "all-polyfills",
-  "version": "0.6.0",
+  "version": "0.8.0",
   "description": "all polyfills can be installed separately",
   "main": "distrib/all-polyfills.min.js",
-  "directories": {
-    "doc": "docs",
-    "test": "tests"
-  },
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.2",
@@ -15,11 +11,12 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-es2016": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-babel": "^7.0.1",
     "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
-    "gulp-debug": "^3.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
     "gulp-watch": "^5.0.0"
   },
   "scripts": {
@@ -30,11 +27,17 @@
     "url": "git+https://github.com/Sylvain59650/all-polyfills.git"
   },
   "keywords": [
-    "polyfills",
+    "polyfills","ES5","ES6",
     "core",
     "js"
   ],
-  "author": "Sylvain LONGEPEE",
+  "author": "sylvain59",
+  "maintainers": [
+    {
+      "name": "sylvain59",
+      "email": "slongepee@laposte.net"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Sylvain59650/all-polyfills/issues"

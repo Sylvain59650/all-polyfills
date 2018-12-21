@@ -1,0 +1,1 @@
+Object.is||(Object.is=function(t,c){return t===c?0!==t||1/t==1/c:t!=t&&c!=c});
