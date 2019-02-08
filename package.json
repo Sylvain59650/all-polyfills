@@ -27,7 +27,9 @@
     "url": "git+https://github.com/Sylvain59650/all-polyfills.git"
   },
   "keywords": [
-    "polyfills","ES5","ES6",
+    "polyfills",
+    "ES5",
+    "ES6",
     "core",
     "js"
   ],

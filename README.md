@@ -48,7 +48,7 @@ categories features are :
 - String
 - window
 
-<p>example for categorie <i>Math</i></p>
+<p>example for category <i>Math</i></p>
 
 ```html
 <script src="node_modules/all-polyfills/distrib/Math.min.js"></script>
