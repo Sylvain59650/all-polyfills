@@ -75,6 +75,7 @@ gulp.task("all-categories", () => {
     makeTask("NodeList"),
     makeTask("Number"),
     makeTask("Object"),
+    makeTask("Reflect"),
     makeTask("Regex"),
     makeTask("String"),
     makeTask("window")

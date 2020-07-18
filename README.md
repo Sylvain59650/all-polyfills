@@ -70,6 +70,8 @@ categories features are :
 	filter
 	find
 	findIndex
+	flat
+	flatMap
 	from
 	includes
 	indexOf
@@ -135,6 +137,10 @@ categories features are :
 	entries
 	is
 	keys
+	values
+# Reflect
+	getOwnPropertySymbols
+	ownKeys
 # Regex
 	flags
 # String
