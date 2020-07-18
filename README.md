@@ -44,6 +44,7 @@ categories features are :
 - NodeList
 - Number
 - Object
+- Reflect
 - Regex
 - String
 - window
